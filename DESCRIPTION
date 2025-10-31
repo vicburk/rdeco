@@ -3,8 +3,7 @@ Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
     person("Burklow", "Victor", , "burklovic@outlook.com", role = c("aut", "cre"))
-Description: This package provides tools for data cleaning. Specifically, multiple single-cell RNA-seq datasets
-can be combined into a single object. This object can then be used for deconvolution analysis with tools like CIBERSORTx.
+Description: This package provides tools for data cleaning. Specifically, multiple single-cell RNA-seq datasets can be combined into a single object. This object can then be used for deconvolution analysis with tools like CIBERSORTx.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

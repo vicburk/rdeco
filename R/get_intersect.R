@@ -4,6 +4,10 @@
 #` @param type The type of sets that you want to get the intersection of. Either "row", "col", or "vector"
 #` @return A vector of the intersection of the sets
 #` @examples
+#`
+#` s <- list(c("a","b","c","d"), c("f","e","d","c"))
+#` get_intersect(s, type = "vector")
+#`
 # Function to find the intersection
 get_intersect <- function(sets, type = c("row", "col", "vector")) {
   # This will throw an error if the type is not valid
